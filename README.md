@@ -1,9 +1,10 @@
 # @dimasrakas/uikit
+
 Sharing reusable Vue.js components with Lerna and Storybook
 
-
 ## Install
-``` bash
+
+```bash
 # with npm
 npm install
 
@@ -13,7 +14,8 @@ yarn install
 ```
 
 ## Development & Deployment
-``` bash
+
+```bash
 # with npm
 npm run storybook         #localhost
 npm run build-storybook   #production
@@ -21,4 +23,16 @@ npm run build-storybook   #production
 # with yarn
 yarn storybook            #localhost
 yarn build storybook      #production
+```
+
+## Testing
+
+```bash
+# with npm
+npm run test
+npm run test -u             #reset snapshots
+
+# with yarn
+yarn test
+yarn test -u              #reset snapshots
 ```
