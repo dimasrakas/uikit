@@ -1129,6 +1129,14 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@dimasrakas/button@^0.1.1-alpha.0":
+  version "0.1.1-alpha.0"
+  resolved "https://registry.yarnpkg.com/@dimasrakas/button/-/button-0.1.1-alpha.0.tgz#39126c541a3f86596f17160db1c76c197f5154b8"
+  integrity sha512-z7ytTFARWP03yO5Azvn40AKx2JlStpWKh08AjYbgJFQNOwcaDaqHg+ND1rBYtvGrtyQjPuugWq0gHQzeO/GtqQ==
+  dependencies:
+    styled-system "4.2.4"
+    vue-styled-components "1.6.0"
+
 "@discoveryjs/json-ext@^0.5.3":
   version "0.5.6"
   resolved "https://registry.npmjs.org/@discoveryjs/json-ext/-/json-ext-0.5.6.tgz"
