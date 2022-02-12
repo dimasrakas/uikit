@@ -4,14 +4,6 @@ import Input from "./Input.vue";
 export default {
   title: "Design System/Input",
   component: Input,
-  // More on argTypes: https://storybook.js.org/docs/vue/api/argtypes
-  argTypes: {
-    backgroundColor: { control: "color" },
-    state: {
-      control: { type: "select" },
-      options: ["default", "error", "disabled"],
-    },
-  },
 };
 
 // More on component templates: https://storybook.js.org/docs/vue/writing-stories/introduction#using-args
@@ -21,10 +13,9 @@ const Template = (args, { argTypes }) => ({
   template: '<Input v-bind="$props" />',
 });
 
-export const Text = Template.bind({});
+export const TextInput = Template.bind({});
 // More on args: https://storybook.js.org/docs/vue/writing-stories/args
-Text.args = {
+TextInput.args = {
   id: "text-input",
-  label: "Nama",
   placeholder: "Your placeholder",
 };

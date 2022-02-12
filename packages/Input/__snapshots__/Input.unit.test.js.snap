@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input.vue should render correctly 1`] = `
+<div>
+  <input
+    id="text"
+    placeholder="Placeholder"
+    type="text"
+  />
+</div>
+`;
