@@ -1,0 +1,11 @@
+{
+  "name": "@dimasrakas/table",
+  "version": "0.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "styled-system": "4.2.4",
+    "vue-styled-components": "1.6.0"
+  }
+}
