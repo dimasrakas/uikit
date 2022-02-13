@@ -1129,6 +1129,11 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@dimasrakas/themes@^1.0.1-alpha.0":
+  version "1.0.1-alpha.0"
+  resolved "https://registry.yarnpkg.com/@dimasrakas/themes/-/themes-1.0.1-alpha.0.tgz#931d831b4ff82af66ec751e2cac08be2f469ce30"
+  integrity sha512-QPdQtYSdYLIB7of5o38jVfXnDo/tw8GoDijuAIQpIBE27qLIi/Lrz6jc2jdIdG68jc9OWi5HK8VJCEM0C8iejQ==
+
 "@discoveryjs/json-ext@^0.5.3":
   version "0.5.6"
   resolved "https://registry.npmjs.org/@discoveryjs/json-ext/-/json-ext-0.5.6.tgz"
