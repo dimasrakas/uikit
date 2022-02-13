@@ -1129,10 +1129,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@dimasrakas/button@^0.1.1-alpha.0":
-  version "0.1.1-alpha.0"
-  resolved "https://registry.yarnpkg.com/@dimasrakas/button/-/button-0.1.1-alpha.0.tgz#39126c541a3f86596f17160db1c76c197f5154b8"
-  integrity sha512-z7ytTFARWP03yO5Azvn40AKx2JlStpWKh08AjYbgJFQNOwcaDaqHg+ND1rBYtvGrtyQjPuugWq0gHQzeO/GtqQ==
+"@dimasrakas/button@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@dimasrakas/button/-/button-1.0.1.tgz#3c11297ae0d961c3a91bdb17a9ec374490ebb185"
+  integrity sha512-RrOMDhFTHu+MGm0psZwb7Pp1tDmsjVQNpIu7isP4IOEfvyr3xJvUjmwEhLUceI/MhBtR9M8ILaWLVlmtBdx4CA==
   dependencies:
     styled-system "4.2.4"
     vue-styled-components "1.6.0"
