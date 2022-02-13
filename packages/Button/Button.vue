@@ -12,7 +12,7 @@
 
 <script>
 import StyledButton from "./StyledButton";
-import { colors, space } from "../../themes";
+import { colors, space } from "@dimasrakas/themes";
 
 export default {
   name: "Button",
@@ -44,7 +44,7 @@ export default {
     },
   },
   computed: {
-    name() {
+    textColor() {
       return this.data;
     },
   },

@@ -1,5 +1,5 @@
 import styled from "vue-styled-components";
-import { space, fontSize, color } from "styled-system";
+import { space, color } from "styled-system";
 
 const StyledButton = styled("button", {
   mt: [Number, String, Array],
