@@ -1,0 +1,7 @@
+{
+  "name": "@dimasrakas/themes",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  }
+}
