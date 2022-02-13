@@ -15,7 +15,7 @@ export default {
       default: 40,
     },
   },
-  methods: {
+  computed: {
     logo() {
       if (this.variant === "primary") {
         return require("./assets/primary.svg");

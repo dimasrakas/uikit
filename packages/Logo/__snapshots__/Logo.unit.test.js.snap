@@ -4,7 +4,7 @@ exports[`Button.vue should render correctly 1`] = `
 <img
   alt=""
   height="40"
-  src="function () { [native code] }"
+  src=""
   width="auto"
 />
 `;
