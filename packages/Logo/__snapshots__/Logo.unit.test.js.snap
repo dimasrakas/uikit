@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button.vue should render correctly 1`] = `
+<img
+  alt=""
+  height="40"
+  src="function () { [native code] }"
+  width="auto"
+/>
+`;
