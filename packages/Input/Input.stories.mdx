@@ -1,0 +1,111 @@
+import { Meta, Story, Canvas } from "@storybook/addon-docs/blocks";
+import { ArgsTable } from "@storybook/addon-docs";
+
+import Input from "./Input.vue";
+
+<Meta title="Design System/Input" component={Input} />
+
+export const Template = (args, { argTypes }) => ({
+  props: Object.keys(argTypes),
+  components: { Input },
+  template: '<Input v-bind="$props" />',
+});
+
+# Input
+
+With `MDX`, we can define a story for `Button` right in the middle of our
+Markdown documentation.
+
+## Install
+
+```bash
+yarn add @dimasrakas/input
+
+// or
+
+npm install @dimasrakas/input
+```
+
+## Imports
+
+```js
+import { Input } from "@dimasrakas/input";
+```
+
+## Usage
+
+### Text Input
+
+<Canvas withSource="open">
+  <Story
+    name="Text"
+    args={{
+      type: "text",
+      id: "text-input",
+      placeholder: "Your full name",
+      label: "My name",
+      infoMessage: "Tip: Simple caption text here",
+      errorMessage: "",
+    }}
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+### Number Input
+
+<Canvas withSource="open">
+  <Story
+    name="Number"
+    args={{
+      type: "number",
+      id: "text-input",
+      placeholder: "Your number",
+      label: "My age",
+      infoMessage: "Tip: Simple caption text here",
+      errorMessage: "",
+    }}
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+### Date Input
+
+<Canvas withSource="open">
+  <Story
+    name="Date"
+    args={{
+      type: "date",
+      id: "text-input",
+      placeholder: "Your date",
+      label: "My birthday",
+      infoMessage: "Tip: Simple caption text here",
+      errorMessage: "",
+    }}
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+### Password Input
+
+<Canvas withSource="open">
+  <Story
+    name="Password"
+    args={{
+      type: "password",
+      id: "text-input",
+      placeholder: "Your password",
+      label: "My password",
+      infoMessage: "Tip: Simple caption text here",
+      errorMessage: "",
+    }}
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+## Props
+
+<ArgsTable of={Input} />
