@@ -7,9 +7,11 @@ Sharing reusable Vue.js components with Lerna and Storybook
 ```bash
 # with npm
 npm install
+lerna bootstrap
 
 # with yarn
 yarn install
+lerna bootstrap
 
 ```
 

@@ -65,7 +65,12 @@ export default {
   computed: {
     enableError() {
       const length = this.errorMessage.length;
-      return length;
+
+      if (length > 1) {
+        return true;
+      }
+
+      return false;
     },
   },
 };

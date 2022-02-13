@@ -16,7 +16,7 @@ describe("Table", () => {
   it("should have default structure", async () => {
     const wrapper = shallowMount(Table);
 
-    expect(wrapper.element.tagName).toBe("TABLE");
+    expect(wrapper.element.tagName).toBe("STYLEDTABLE-STUB");
   });
 
   it("should renders default slot content", async () => {

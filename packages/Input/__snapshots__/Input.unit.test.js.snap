@@ -2,10 +2,18 @@
 
 exports[`Input.vue should render correctly 1`] = `
 <div>
-  <input
+  <!---->
+   
+  <styledinput-stub
     id="text"
     placeholder="Placeholder"
+    px="3"
+    py="2"
     type="text"
   />
+   
+  <!---->
+   
+  <!---->
 </div>
 `;

@@ -1,7 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Button.vue should render correctly 1`] = `
-<button>
-  Button
-</button>
+<styledbutton-stub
+  bg="#3b82f6"
+  color="#fff"
+  px="3"
+  py="2"
+>
+  <span>
+    Button
+  </span>
+   
+  <!---->
+</styledbutton-stub>
 `;
