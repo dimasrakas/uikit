@@ -1,13 +1,15 @@
 <template>
-  <td>
+  <StyleTableCell>
     <slot />
-  </td>
+  </StyleTableCell>
 </template>
 
 <script>
+import StyleTableCell from "./StyledTableCell";
 export default {
   name: "TableCell",
+  components: {
+    StyleTableCell,
+  },
 };
 </script>
-
-<style lang="scss" scoped></style>
